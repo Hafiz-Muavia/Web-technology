@@ -4,25 +4,28 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Float</title>
+  <title>Absolute Positioning</title>
   <style>
     div {
-      background-color: coral;
-      margin: 10px;
+      position: relative;
+      display: inline-block;
+      background-color: blueviolet;
     }
 
     .one {
-      float: left;
       width: 25%;
+      position: absolute;
     }
 
     .two {
+      position: absolute;
+      left: 27.25%;
       width: 25%;
-      float: left;
     }
 
     .three {
-      float: left;
+      position: absolute;
+      left: 53%;
       width: 40%;
     }
   </style>
@@ -31,7 +34,7 @@
 <body>
 
   <body>
-    <h1>Float</h1>
+<h1>Absolute Positioning</h1>
     <div class="one">
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus eveniet minus dolor qui laudantium
         molestias repudiandae reprehenderit impedit aliquid, fugit eligendi placeat, unde praesentium, vel veritatis
